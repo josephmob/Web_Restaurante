@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8" />
+    <title>La Bona Mar</title>
+    <link rel="stylesheet" href="src/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/favicon.png" />
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header id="Home">
+
+            <nav id="navbar">
+                <a class="navcell" onclick="scrollTo('Horarios')" href="#">HORARIOS</a>
+                <a class="navcell" onclick="scrollTo('Palamos')" href="#">PALAMOS</a>
+                <a class="navcell" onclick="scrollTo('Historia')" href="#">HISTORIA</a>
+                <a class="navcell" onclick="scrollTo('Carta')" href="#">CARTA</a>
+                <a class="navcell" onclick="scrollTo('Promos')" href="#">PROMOCIONES</a>
+                <a class="navcell" onclick="scrollTo('Home')" href="#">HOME</a>
+            </nav>
+
+            <!-- SLIDER -->
+            <div class="slider-container">
+                <div class="slider fade">
+                    <img src="img/slider/slider1.png" alt="restaurant">
+                </div>
+                <div class="slider fade">
+                    <img src="img/slider/slider2.png" alt="restaurant">
+                </div>
+                <div class="slider fade">
+                    <img src="img/slider/slider3.png" alt="restaurant">
+                </div>
+                <div class="slider-dot">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+
+        </header>
+
+        <section id="Promos">
+            <div class="promo">
+                <div class="promo2 gamba">
+                </div>
+                <div class="promo3">
+                    <h1>MENU GAMBA</h1>
+                </div>
+
+            </div>
+            <div class="promo">
+                <div class="promo2 escamarlan">
+                </div>
+                <div class="promo3">
+                    <h1>MENU ESCAMARLAN</h1>
+                </div>
+
+            </div>
+            <div class="promo">
+                <div class="promo2 olla">
+                </div>
+                <div class="promo3">
+                    <h1>MENU OLLA</h1>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="Carta" style="background-color: lightcoral;">
+
+        </section>
+
+        <footer id="Horarios">
+            <div class="contact">
+                <div class="contact-info">
+                    <h2>Horario</h2>
+                    <h4>Martes a viernes</h4>
+                    <p>Mañana: De 13:00 a 17:00</p>
+                    <p>Tarde: De 20:00 a 01:00</p>
+                    <h4>Sabado a Domingo</h4>
+                    <p>Mañana: De 13:00 a 17:00</p>
+                    <p>Tarde: De 20:00 a 02:00</p>
+
+                    <h2>Contacto</h2>
+                    <h4>Restaurante la Bona Mar</h4>
+                    <p>Carrer / De la Creu , 22</p>
+                    <p>Palamós, CP: 17230</p>
+                    <p>Giorna (CAT)</p>
+                    <p>Teléfono: 972 310 000</p>
+                </div>
+                <div class="weather">
+                    <div id="map">
+                        <h2>Mapa</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1767.2741845557844!2d3.129436565549663!3d41.84575743995881!
+                        2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12bbaafae20bd361%3A0x18dd30222cfebf22!2sCarrer+de+la+Creu%2C+22%2C+17230+P
+                        alam%C3%B3s%2C+Girona!5e0!3m2!1ses!2ses!4v1475761975529" width="515" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div id="c_40716f2cb58f8c38bc6297a0c8736cba" class="ancho">
+                        <script type="text/javascript" src="https://www.eltiempo.es/widget/widget_loader/40716f2cb58f8c38bc6297a0c8736cba"></script>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Restaurante la Mar Bona , 1926 since 2016. Web disgned by Sednas Studios</p>
+                <p>All rights reserved ©</p>
+            </div>
+        </footer>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="src/script.js"></script>
+</body>
+
+</html>
